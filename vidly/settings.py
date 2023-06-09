@@ -55,7 +55,7 @@ ROOT_URLCONF = 'vidly.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:\Users\USER\vidly\movies\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
