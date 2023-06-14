@@ -25,6 +25,7 @@ Usage Example:
 from django.db import models
 from django.utils import timezone
 
+
 class Genre(models.Model):
     """A model representing a movie genre.
 
@@ -35,6 +36,7 @@ class Genre(models.Model):
 
     def __str__(self):
         return self.name
+
 
 class Movie(models.Model):
     """A model representing a movie.
